@@ -513,6 +513,7 @@ powerpc*-*-*)
 riscv*)
 	cpu_type=riscv
 	extra_objs="riscv-builtins.o riscv-c.o"
+	extra_headers="rvb_intrin.h"
 	d_target_objs="riscv-d.o"
 	;;
 rs6000*-*-*)
